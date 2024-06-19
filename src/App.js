@@ -15,3 +15,7 @@ const countryCodes = {
   "UG": "Uganda",
   // I'll add more Here 
 };
+
+function getCountryName(countryCode) {
+  return countryCodes[countryCode] || countryCode;
+}
