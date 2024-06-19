@@ -5,12 +5,15 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #67a5bdbc;
+  background-image: url('https://images.pexels.com/photos/1576369/pexels-photo-1576369.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-size: cover;
+  background-position: center;
 }
+
 .container {
   text-align: center;
-  padding: 100px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
 }
