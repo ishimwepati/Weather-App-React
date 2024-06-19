@@ -108,8 +108,9 @@ function App() {
         value={city}
         onChange={e => setCity(e.target.value)}
         placeholder="Enter city name"
+        id='inputCity'
       />
-      <button onClick={getWeather}>Get Weather</button>
+      <button onClick={getWeather} id="getWeather">Get Weather</button>
       <div id="weatherInfo">
         {error && <p>{error}</p>}
         {weatherData && (
