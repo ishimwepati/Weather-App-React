@@ -54,3 +54,38 @@ function App() {
         setWeatherData(null);
       });
   };
+
+  return (
+    <div className="container">
+      <h1>WazaCode Weather App</h1>
+      <h2>Enter a city name to get the weather</h2>
+      <input
+        type="text"
+        value={city}
+        onChange={e => setCity(e.target.value)}
+        placeholder="Enter city name"
+      />
+      <button onClick={getWeather}>Get Weather</button>
+      <div id="weatherInfo">
+        {error && <p>{error}</p>}
+        {weatherData && (
+          <div>
+            <h2>
+              {weatherData.name}, {weatherData.country}{' '}
+              <img
+                src={`https://flagcdn.com/w320/${weatherData.countryCode}.png`}
+                alt={`${weatherData.country} flag`}
+                width="30"
+              />
+            </h2>
+            <p>{weatherData.description}</p>
+            <p>Temperature: {weatherData.temp}°C</p>
+            <p>Humidity: {weatherData.humidity}%</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default App;
