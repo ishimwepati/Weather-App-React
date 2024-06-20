@@ -100,7 +100,9 @@ function App() {
   };
 
   return (
-    <div className="container">
+    
+    
+  <div className="container">
       <h1>WazaCode Weather App</h1>
       <h2>Enter a city name to get the weather</h2>
       <input

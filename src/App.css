@@ -29,4 +29,5 @@ body {
 #inputCity {
   padding: 2px;
   height: 50px;
+  border-radius: 20%;
 }
