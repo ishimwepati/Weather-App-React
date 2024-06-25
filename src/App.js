@@ -104,7 +104,7 @@ function App() {
     
   <div className="container">
       <h1>WazaCode Weather App</h1>
-      <h2>City Name</h2>
+      <h2>Enter City Name</h2>
       <input
         type="text"
         value={city}
