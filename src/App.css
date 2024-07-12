@@ -34,6 +34,8 @@ body {
 }
 .temperature{
   font-size: 100px;
+  text-align: center;
+  color: rgb(74, 82, 82);
 }
 .left {
   background-color: rgb(237, 231, 225);
