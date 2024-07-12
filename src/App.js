@@ -104,16 +104,18 @@ function App() {
     
   <div className="container">
     <div className="right">
+      <div className='right-title'>
+        <h3>WazaCode Weather App  </h3>
+        <input
+          type="text"
+          value={city}
+          onChange={e => setCity(e.target.value)}
+          placeholder="Enter city name"
+          id='inputCity'
+        />
+        <button onClick={getWeather} id="getWeather">Get Weather</button>
+      </div>
 
-      <h2>WazaCode Weather App</h2>
-      <input
-        type="text"
-        value={city}
-        onChange={e => setCity(e.target.value)}
-        placeholder="Enter city name"
-        id='inputCity'
-      />
-      <button onClick={getWeather} id="getWeather">Get Weather</button>
       <div id="weatherInfo">
         {error && <p>{error}</p>}
         {weatherData && (
