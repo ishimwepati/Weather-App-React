@@ -120,6 +120,8 @@ function App() {
         {error && <p>{error}</p>}
         {weatherData && (
           <div>
+            <p className='temperature'> {weatherData.temp}°C</p>
+            <p>Humidity: {weatherData.humidity}%</p>
             <h2>
               {weatherData.name}, {weatherData.country}{' '}
               <img
@@ -129,8 +131,7 @@ function App() {
               />
             </h2>
             <p>{weatherData.description}</p>
-            <p>Temperature: {weatherData.temp}°C</p>
-            <p>Humidity: {weatherData.humidity}%</p>
+            
           </div>
         )}
       </div>

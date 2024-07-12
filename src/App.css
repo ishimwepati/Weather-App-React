@@ -31,9 +31,10 @@ body {
  height: 50%;
  margin-left: 1.5%;
  margin-right: 1.5%;
-
 }
-
+.temperature{
+  font-size: 100px;
+}
 .left {
   background-color: rgb(237, 231, 225);
   flex: 30%;
