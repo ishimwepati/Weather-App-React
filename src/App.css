@@ -37,6 +37,12 @@ body {
   text-align: center;
   color: rgb(74, 82, 82);
 }
+
+.weather-description{
+  text-align: center;
+  margin-top: -12%;
+  font-size: 18px;
+}
 .left {
   background-color: rgb(237, 231, 225);
   flex: 30%;

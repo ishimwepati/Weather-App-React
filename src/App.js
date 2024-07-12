@@ -121,7 +121,7 @@ function App() {
         {weatherData && (
           <div>
             <p className='temperature'> {weatherData.temp}°C</p>
-            <p>{weatherData.description}</p>
+            <p className='weather-description'>{weatherData.description}</p>
             <p>Humidity: {weatherData.humidity}%</p>
             <h2>
               {weatherData.name}, {weatherData.country}{' '}
