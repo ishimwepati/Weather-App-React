@@ -103,6 +103,7 @@ function App() {
     
     
   <div className="container">
+    <div className="right">
       <h1>WazaCode Weather App</h1>
       <h2>Enter City Name</h2>
 
@@ -131,6 +132,10 @@ function App() {
             <p>Humidity: {weatherData.humidity}%</p>
           </div>
         )}
+      </div>
+      </div>
+      <div className='left'>
+        Hello
       </div>
     </div>
   );

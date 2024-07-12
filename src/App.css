@@ -5,14 +5,23 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: url('https://images.pexels.com/photos/1576369/pexels-photo-1576369.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-color: rgb(227, 236, 245);
   background-size: cover;
   background-position: center;
 }
+.right {
+  background-color: aqua;
+  flex: 60%;
+}
 
+.left {
+  background-color: bisque;
+  flex: 40%;
+}
 .container {
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.8);
