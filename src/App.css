@@ -44,8 +44,8 @@ body {
   font-size: 18px;
 }
 
-.weatherInfo h2{
-  text-align: center;
+#weatherInfo h2{
+ text-align: center;
 }
 .left {
   background-color: rgb(237, 231, 225);
