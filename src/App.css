@@ -43,6 +43,10 @@ body {
   margin-top: -12%;
   font-size: 18px;
 }
+
+.weatherInfo h2{
+  text-align: center;
+}
 .left {
   background-color: rgb(237, 231, 225);
   flex: 30%;
