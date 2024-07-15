@@ -116,7 +116,7 @@ function App() {
         <button onClick={getWeather} id="getWeather">Get Weather</button>
       </div>
 
-      <div id="weatherInfo">
+      <div id="weather-Info">
         {error && <p>{error}</p>}
         {weatherData && (
           <div>
