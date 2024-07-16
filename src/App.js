@@ -13,6 +13,7 @@ const countryCodes = {
   "BR": "Brazil",
   "ZA": "South Africa",
   "UG": "Uganda",
+  "SP": "Spain"
   // I'll add more Country Codes 
 };
 
