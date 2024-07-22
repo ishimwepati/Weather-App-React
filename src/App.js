@@ -140,9 +140,7 @@ function App() {
         )}
       </div>
       </div>
-      <div className='left'>
-        Hello
-      </div>
+     
     </div>
   );
 }
