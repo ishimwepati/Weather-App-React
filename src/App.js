@@ -12,7 +12,6 @@ const countryCodes = {
   "CN": "China",
   "BR": "Brazil",
   "ZA": "South Africa",
-  "UG": "Uganda",
   "SP": "Spain",
   "RW": "Rwanda",
   "UG": "Uganda",
