@@ -15,6 +15,7 @@ const countryCodes = {
   "SP": "Spain",
   "RW": "Rwanda",
   "UG": "Uganda",
+  "CD": "Drmiva"
   // I'll add more Country Codes 
 };
 
